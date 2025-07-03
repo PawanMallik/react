@@ -10,6 +10,7 @@ const Nav = () => {
         <Link to='/jokes'>Jokes</Link>
         <Link to='/music'>Music</Link>
         <Link to='/zipcode'>ZipCode</Link>
+        <Link to='/array'>Array</Link>
     </nav>
   )
 }

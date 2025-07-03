@@ -57,3 +57,36 @@ gap: 20px;
   width: 200px;
   padding: 20px;
 }
+
+.container{
+    /* background-color: red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+  /* background-color: yellow; */
+  height: 300px;
+  overflow-x: auto;
+  width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+  height: 160px;
+width: auto;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px black;
+  /* background-color: green; */
+  padding: 20px;
+}

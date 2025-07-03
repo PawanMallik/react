@@ -6,6 +6,7 @@ import Nav from './components/Nav'
 import Home from './pages/Home'
 import Music from './pages/Music'
 import Zipcode from './pages/Zipcode'
+import Array from './pages/Array'
 
 const App = () => {
   
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/jokes' element={<Jokes/>}/>
         <Route path='/music' element={<Music/>}/>
         <Route path='/zipcode' element={<Zipcode/>}/>
+        <Route path='/array' element={<Array/>}/>
       </Routes>
     </div>
   )
