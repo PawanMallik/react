@@ -13,7 +13,7 @@ const ToDoList = () => {
     if(todo.trim() === '') return;
     setTask([...task,todo]);
     setTodo ('')
-  }
+  } 
 
   return (
     <div>
