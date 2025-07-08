@@ -11,6 +11,7 @@ const Nav = () => {
         <Link to='/music'>Music</Link>
         <Link to='/zipcode'>ZipCode</Link>
         <Link to='/array'>Array</Link>
+        <Link to='/todo'>To DO</Link>
     </nav>
   )
 }

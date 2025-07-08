@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Music from './pages/Music'
 import Zipcode from './pages/Zipcode'
 import Array from './pages/Array'
+import ToDoList from './pages/ToDoList'
 
 const App = () => {
   
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/music' element={<Music/>}/>
         <Route path='/zipcode' element={<Zipcode/>}/>
         <Route path='/array' element={<Array/>}/>
+        <Route path='/todo' element={<ToDoList/>}/>
       </Routes>
     </div>
   )
